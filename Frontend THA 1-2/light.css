@@ -1,0 +1,85 @@
+body {
+    background-image: url('test.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 1px solid black;
+    margin: 0.9375rem;
+}
+
+.address {
+    margin: 1px;
+    font-family: serif;
+}
+
+.subject {
+    font-family: "helvetica", Times, serif;
+}
+
+.heading {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(13, 111, 150);
+}
+
+table {
+    margin: 0.9375rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: serif;
+    width: 70%;
+    padding: 0.1875rem;
+}
+
+th {
+    border: 1px solid black;
+    height: 20px;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    height: 10px;
+    vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(13, 111, 150);
+}
+
+h3,
+h4 {
+    margin: 0.9375rem;
+    color: rgb(13, 111, 150);
+}
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+
+p {
+    margin: 0.9375rem;
+    font-family: serif;
+}
+
+
+/* .inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+} */
