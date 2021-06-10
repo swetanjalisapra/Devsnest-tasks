@@ -1,0 +1,50 @@
+.outer-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid cyan;
+    background-color: black;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(0, 0, 0, 0.25);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+}
+
+.hour {
+    position: absolute;
+    height: 14%;
+    width: 0.7%;
+    background-color: pink;
+    transform: translate(0, -50%);
+}
+
+.min {
+    position: absolute;
+    height: 17%;
+    width: 0.5%;
+    background-color: white;
+    transform: translate(0, -50%) rotate(90deg);
+    transform-origin: bottom center;
+}
+
+.sec {
+    position: absolute;
+    height: 19%;
+    width: 0.2%;
+    background-color: burlywood;
+    transform: translate(0, -50%) rotate(180deg);
+    transform-origin: bottom center;
+}
