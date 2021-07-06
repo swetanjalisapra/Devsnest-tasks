@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p class="heading">Quizziz</p>
+
+    <div class="wrongAns">Wrong Answer</div>
+    <div class="correctAns">Correct Answer</div>
+    <div class="gameEnd">Game Over</div>
+
+    <section>
+      <p>Score: <span id="score">0</span></p>
+      <div class="quiz">
+        <h2 id="question">Question</h2>
+        <div class="options">
+          <div class="opts">
+            <p id="opt1-statement">A</p>
+            <p id="opt1" class="btn">Select Option</p>
+          </div>
+          <div class="opts">
+            <p id="opt2-statement">B</p>
+            <p id="opt2" class="btn">Select Option</p>
+          </div>
+          <div class="opts">
+            <p id="opt3-statement">C</p>
+            <p id="opt3" class="btn">Select Option</p>
+          </div>
+          <div class="opts">
+            <p id="opt4-statement">D</p>
+            <p id="opt4" class="btn">Select Option</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="playAgain" class="btn" style="text-align: center">
+        Play Again
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
